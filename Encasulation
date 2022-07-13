@@ -1,0 +1,27 @@
+public class Dog { 
+
+  public static void main(String[] args) { 
+    //body
+  }
+  
+  private void bark(){
+    //body of a private method
+  }
+
+
+  void howl(){
+    //body of a default method
+  }
+
+  
+  protected void chewOnToys(){
+    //body of a protected method
+  }
+
+
+  public void play(){
+    //body of a public method
+  }
+  
+ 
+}

@@ -8,7 +8,6 @@ public class Dog {
     //body of a private method
   }
 
-
   void howl(){
     //body of a default method
   }

@@ -1,0 +1,42 @@
+public class Patient{
+// instance variables with a private access modifier
+ private String patientName;
+ private String social;
+ private String dateOfBirth;
+ private String address;
+ private String illness;
+
+//Generate our Getters and Setters
+ public String getPatientName() {
+  return patientName;
+ }
+
+//setter or mutator
+ public void setPatientName(String patientName) {
+  this.patientName = patientName;
+ }
+//getter or accessor
+ public String getSocial() {
+  return social;
+ }
+
+ public void setSocial(String social) {
+  this.social = social;
+ }
+
+ public String getDateOfBirth() {
+  return dateOfBirth;
+ }
+
+ public void setDateOfBirth(String dateOfBirth) {
+  this.dateOfBirth = dateOfBirth;
+ }
+
+ public String getAddress() {
+  return address;
+ }
+
+ public void setAddress(String address) {
+  this.address = address;
+ }
+}

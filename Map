@@ -1,0 +1,19 @@
+public class Main{
+  public static void main(String args[]){
+    // creating a HashMap that can hold String/Integer key-value pairs
+     HashMap<String, Integer> map = new HashMap<>();
+
+    // adding to the map
+     map.put("One", 1);
+     map.put("Two", 2);
+     map.put("Three", 3);
+     map.put("Four", 4);
+     map.put("Five", 5);
+
+    // removing from the map using a key
+     map.remove("Three");
+
+    // printing out the map
+     System.out.println(map);
+  }
+}

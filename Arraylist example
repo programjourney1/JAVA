@@ -1,0 +1,20 @@
+public class Main{
+  public static void main(String[] args){
+
+    // creating an ArrayList that can hold Integer objects
+     ArrayList<Integer> list = new ArrayList<>();
+
+    // adding to the queue
+     list.add(1);
+     list.add(2);
+     list.add(3);
+     list.add(4);
+     list.add(5);
+
+    // removing from the list using an index
+     list.remove(0);
+
+    // printing out the list
+     System.out.println(list);
+   }
+}

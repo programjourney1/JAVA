@@ -1,0 +1,26 @@
+// does not show sub folders
+
+import java.util.*;
+
+class Main {
+  public static void main(String[] args) {
+ ArrayList<Person> family = new ArrayList<Person>();
+
+Person Mary = new GrandParent("Mary");
+Person John = new GrandParent("John");
+    Person Amy = new Parent ("Amy", "medium");
+     Person Andy = new Parent ("Andy", "low");
+     Person Annie = new Child ("Annie", "high", "Johnson");
+    family.add(Mary);
+    family.add(John);
+    family.add(Amy);
+    family.add(Andy);
+    family.add(Annie);
+
+for (Person person : family){
+      person.walk();
+    }
+
+    
+  }
+}

@@ -24,3 +24,50 @@ public class SportsCar extends Car {
  }
 
 }
+----------------------------------------------------------
+import java.util.ArrayList;
+import java.util.List;
+
+public class Driver {
+ 
+ public static void main(String args[]) {
+  SportsCar sc =  new SportsCar();
+  Car c = sc;
+  
+  sc.speed(100);
+  c.speed(45);
+  
+  //This will add the cars to my List
+  List<Car> cars = new ArrayList<>();
+  cars.add(new SportsCar());
+  cars.add(new Car());
+  
+  for (Car gas : cars){
+        gas.gasType();
+   }
+  
+ }
+
+}
+public class Car {
+ 
+ public int speed(int value) {
+  return value;
+ }
+ 
+ public void gasType() {
+  System.out.println("Unleaded Fuel!");
+ }
+
+}
+public class SportsCar extends Car {
+ 
+ public void sound() {
+  System.out.println("I go vrooom and purr like a kitten!");
+ }
+ 
+ public void gasType() {
+  System.out.println("Premium Fuel!");
+ }
+
+}

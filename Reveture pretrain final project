@@ -1,0 +1,34 @@
+import java.util.*;
+class Main {
+  public static void main(String[] args) {
+System.out.println("Welcome to Snake Encyclopedia!");
+//public static  Scanner sc = new Scanner(System.in); //Scanner
+ArrayList<Snakes> snakes = new ArrayList<Snakes>(); //ArrayList
+    LittleSnakes Kingsnake = new LittleSnakes();
+        Kingsnake.setFacts("Kingsnakes eat other snakes they are : ");
+    LittleSnakes Hognose = new LittleSnakes();
+        Hognose.setFacts("Hognoses have hog noses they are : ");
+    LittleSnakes cornSnake = new LittleSnakes();
+        cornSnake.setFacts("Corn Snakes are harmless they are : ");
+Snakes place = new BigSnakes ("Boas give live birth they are : ");
+     Snakes Boa = new BigSnakes ("Boas give live birth they are : ");
+     Snakes Python = new BigSnakes ("Pythons lay eggs they are : ");
+    snakes.add(place);
+    snakes.add(Boa);
+    snakes.add(Python);
+    snakes.add(Kingsnake);
+    snakes.add(Hognose);
+   snakes.add(cornSnake);
+for (Snakes x : snakes){ //for-each loop
+      x.info();
+
+ try { List<Integer> intList = Stuff.generateIntArrayList(); } //try catch exception
+  catch (Exception e){ System.out.println("Must be Integer: Here is full list of facts");}
+    
+ 
+
+  }
+
+
+}
+}

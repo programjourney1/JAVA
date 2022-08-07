@@ -1,0 +1,13 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+     String   ar1[]= {"Adam ", "Alexis ", "Dennis ", "Jose ", "Jessica ", "Meghan ", "Memphis ", "Nicky ", "Sarah ", "William "};
+     String ar2[]= {"Adamson", "Bond", "Brown", "Johnson", "Gallagher", "Smith", "Thompson", "Perez", "Snow", "Tran"} ;
+
+for (String k: ar1) {
+    for (String h:ar2){
+    System.out.println(k+h);
+}}
+
+
+    }
+}

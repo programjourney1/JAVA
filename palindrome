@@ -1,0 +1,23 @@
+package Palindrome;
+
+import java.util.*;
+import java.util.regex.Pattern;
+
+public class Pala {
+//checks if string is palindrome
+	public static String bb (String x) {
+		char[] try1 = x.toCharArray();
+		  
+        for (int i = try1.length - 1; i >= 0; i--)
+            System.out.print(try1[i]);
+        String s = new String(try1);
+      String  ss= s.toLowerCase();
+       return ss; 
+		
+	}
+        	public static void main(String[] args) {  
+  String g = " keep";
+  if (g == bb(g)) {
+  System.out.println(bb(g));}
+        	}}
+          // does not quite work and even though not == still prints?

@@ -1,6 +1,6 @@
 class ReverseOrder{
   public static void main(String[] args) {
-    String[] cities = {"Atlanta", "Charlotte", "Dallas", "Los Angeles", "New York", "Orlando", "Philadelphia", "Seattle"};
+    String[] cities = {"Atlanta", "Charlotte", "Dallas", "Los Angeles", "New York", "Orlando", "Philadelphia", "Seattle", "Kanto"};
 
     //reverse the order of the array below
     for (int i = 0; i < cities.length/2; i++){

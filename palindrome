@@ -1,18 +1,14 @@
 // This is my own bersion!
 package Palindrome;
-
 import java.util.*;
-
-class Pala {
+class Pala {	
 	public static char[] toChar(String f) {
-		char[] ch = new char[f.length()];
+		char[] c = new char[f.length()];
         for (int i = 0; i < f.length(); i++) {
-            ch[i] = f.charAt(i);
+            c[i] = f.charAt(i);
         }
-		return ch;
-		
-	}
-		
+		return c;
+		}		
 	public static char[] rev (char [] c) {
 		 {
 			 int len = c.length; 
@@ -24,46 +20,25 @@ class Pala {
 		    }
 		return c ;
 	}
-		
-	public static String prod(String f) {
-		String st = new String(f);
+	public static String prod(char[] c) {
+		String st = new String(c);
 		return st;
-	}	
-			
-		
+	}		
 		public static void main(String[] args) {
-			String f = "toot";
-			String ini1 = "pool";
-			String d = prod(f);
-			if (d.equals(f)) {
-				System.out.println("yes");
+			String f = "pop"	
+		char[] a = toChar(f);
+		char [] b= rev(a);
+		String q = prod(b);
+		System.out.println(a);
+			//String d = prod(f);
+			if (q.equals(f)) {
+			System.out.println("yes");
 			}else{
 				System.out.println("no");
 			}
 		  }
-//////////////////broken
-package Palindrome;
 
-import java.util.*;
-import java.util.regex.Pattern;
 
-public class Pala {
-//checks if string is palindrome
-	public static String bb (String x) {
-		char[] try1 = x.toCharArray();
-		  
-        for (int i = try1.length - 1; i >= 0; i--)
-            System.out.print(try1[i]);
-        String s = new String(try1);
-      String  ss= s.toLowerCase();
-       return ss; 
-		
-	}
-        	public static void main(String[] args) {  
-  String g = " keep";
-  if (g == bb(g)) {
-  System.out.println(bb(g));}
-        	}}
           // does not quite work and even though not == still prints?
 	  /////////////////////REAL////////////////////
 	  package Palindrome;
